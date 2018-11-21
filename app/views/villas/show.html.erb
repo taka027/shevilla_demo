@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @villa.address %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @villa.title %>
+</p>
+
+<p>
+  <strong>Area:</strong>
+  <%= @villa.area %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @villa.description %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @villa.price %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @villa.category %>
+</p>
+
+<%= link_to 'Edit', edit_villa_path(@villa) %> |
+<%= link_to 'Back', villas_path %>

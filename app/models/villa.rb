@@ -1,0 +1,3 @@
+class Villa < ApplicationRecord
+
+end

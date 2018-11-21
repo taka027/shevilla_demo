@@ -1,0 +1,3 @@
+class TArea < ApplicationRecord
+    
+end

@@ -1,0 +1,2 @@
+module TokainakaHelper
+end

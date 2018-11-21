@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TokainakaV1</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    
+<header id="header">
+		<div class="header_inner clearfix">
+			<h1><a href="/"><%= image_tag('common/logo.png', :alt => "とかいなかのShavilla") %></a>
+			</h1>
+			<div id="nav_toggle">
+				<div>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+			<nav>
+				<ul>
+					<li><%= link_to "借りたい", '/borrow', :class => 'nav_home nav_pc' %></li>
+					<li><%= link_to "貸したい", '/lend', :class => 'nav_home nav_pc' %></li>
+					
+
+					<%# link_to "新規登録orログイン", '/sign', :class => 'nav_sign nav_pc' %>
+
+
+					
+					<% if user_signed_in? %>
+           <li><%= link_to 'プロフィール変更', edit_user_registration_path, :class => 'nav_home nav_pc' %></li>
+           <li><%= link_to 'ログアウト', destroy_user_session_path, method: :delete, :class => 'nav_home nav_pc' %></li>
+          <% else %>
+           <li><%= link_to 'ユーザー登録', new_user_registration_path, :class => 'nav_home nav_pc' %></li>
+           <li><%= link_to 'ログイン', new_user_session_path, :class => 'nav_home nav_pc' %></li>
+          <% end %>
+				</ul>
+			</nav>
+		</div>
+</header>
+
+    
+    
+    
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+    
+    <%= yield %>
+    
+    
+  </body>
+</html>

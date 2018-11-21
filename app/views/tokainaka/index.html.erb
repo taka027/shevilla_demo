@@ -1,0 +1,158 @@
+<div class="contents">
+   
+   <section class="top_mv">
+      <h2 class="catch">とかいなか×別荘シェアで気軽にリッチ<br><span>とかいなか×別荘 個人間取引シェアリングサービス</span></h2>
+      <div class="button">
+         <%= link_to '/lend' do %><span>借</span>りたい<% end %>
+         <%= link_to '/borrow' do %><span>貸</span>したい<% end %>
+      </div>
+   </section>
+
+   <section class="top_what">
+      <h3 class="logotxt font-b"><%= image_tag('common/logo.png', :alt => "とかいなかのShavilla") %>って何？</h3>
+      <p class="line_g font-b ">都会からも行きやすい田舎、人気のライフスタイル「とかいなか」<br class="spn">「とかいなかのShevilla」はとかいなかにある別荘を<span class="txt_g">個人間取引（CtoC）</span>で簡単にシェアできるサービスです。</p>
+   </section>
+
+   <section class="pattern">
+         <hr class="line_stripe">
+         <h4 class="midasi"><%= image_tag('top/pattern_borrow.jpg', :alt => "とかいなかのShavilla") %></h4>
+         <div class="half in-l" data-delighter>
+            <figure><%= image_tag('top/illust_01.png', :alt => "借りたいユーザーイメージ図") %></figure>
+            <ul class="font-b">
+               <li>常の喧騒から離れて、<span class="line_yb"><span class="font-b strong">田舎ライフ</span>を満喫したい。</span></li>
+               <li>買うのは難しい。。でも<span class="line_yb"><span class="font-b strong">気軽に体験</span>してみたい。</span></li>
+               <li><span class="line_yb font-b strong">自然をもっと身近</span>に感じて過ごしたい。</li>
+            </ul>
+         </div>
+
+         <hr class="line_stripe">
+         <h4 class="midasi"><%= image_tag('top/pattern_lend.jpg', :alt => "貸したいオーナー様イメージ図") %></h4>
+         <div class="half in-r" data-delighter>
+            <figure class="order2"><%= image_tag('top/illust_02.png', :alt => "貸したいユーザーイメージ図") %></figure>
+            <ul class="font-b order1">
+               <li>別荘を所有していても<span class="line_yb">普段は<span class="font-b strong">全く使っていない。</span></span></li>
+               <li>しかし<span class="line_yb"><span class="font-b strong">固定資産税</span>はしっかり取られている。</span></li>
+               <li>貸し手みたいが、<span class="font-b line_yb strong">難しい手続きはしたくない。</span></li>
+            </ul>
+         </div>
+         <hr class="line_stripe">
+   </section>
+
+   <section class="top_howto">
+      <h3 class="logotxt font-b"><%= image_tag('common/logo.png', :alt => "とかいなかのShavilla") %>の使い方</h3>
+      <p class="line_g font-b onpu_r">簡単<span class="txt_g strong">3</span>ステップでご利用可能！<%= image_tag('top/onpu_icon.png', :alt => "♪", :class => 'onpu') %></p>
+   </section>
+
+   <h4 class="step_midashi"><%= image_tag('top/borrow_step_midashi.png', :alt => "借りたい") %></h4>
+   <section class="step in-b" data-delighter>
+      <div class="step_inner">
+         <div class="step_inner__contents">
+            <div class="step_inner__num"><span class="line_g font-cg"><span class="">S</span>tep</span><span class="font-cg strong">1</span></div>
+            <span class="step_inner__midashi font-cg font-b">気になる物件を見つける</span>
+            <figure><%= image_tag('top/borrow_step1.png', :alt => "気になる物件を見つける") %></figure>
+            <span class="step_inner__description">「借りたい」ページの物件一覧から<br class="spn">借りたい物件を見つける。</span>
+         </div>
+         
+         <div class="step_inner__contents">
+            <div class="step_inner__num"><span class="line_g font-cg"><span class="">S</span>tep</span><span class="font-cg strong">2</span></div>
+            <span class="step_inner__midashi font-cg font-b">物件オーナーに連絡をする</span>
+            <figure><%= image_tag('top/borrow_step2.png', :alt => "物件オーナーに連絡をするイメージ") %></figure>
+            <span class="step_inner__description">各物件ページにある「オーナーに連絡」<br class="spn">ボタンをクリックしてメールを送信。</span>
+         </div>
+         
+         <div class="step_inner__contents">
+            <div class="step_inner__num"><span class="line_g font-cg"><span class="">S</span>tep</span><span class="font-cg strong">3</span></div>
+            <span class="step_inner__midashi font-cg font-b">貸し手様と直接交渉</span>
+            <figure><%= image_tag('top/borrow_step3.png', :alt => "貸し手様と直接交渉イメージ") %></figure>
+            <span class="step_inner__description">メッセージボード上にて<br class="spn">物件のオーナー様と直接交渉する。</span>
+         </div>
+      </div>
+   </section>
+
+   <h4 class="step_midashi"><%= image_tag('top/lend_step_midashi.png', :alt => "貸したい") %></h4>
+   <section class="step in-b" data-delighter>
+      <div class="step_inner">
+         <div class="step_inner__contents">
+            <div class="step_inner__num"><span class="line_g font-cg"><span class="">S</span>tep</span><span class="font-cg strong">1</span></div>
+            <span class="step_inner__midashi font-cg font-b">掲載依頼ページから申し込み</span>
+            <figure><%= image_tag('top/lend_step1.png', :alt => "掲載依頼ページから申し込みイメージ") %></figure>
+            <span class="step_inner__description">「貸したい」ページ内にある<br class="spn">掲載希望フォームに記入して送信。</span>
+         </div>
+         
+         <div class="step_inner__contents">
+            <div class="step_inner__num"><span class="line_g font-cg"><span class="">S</span>tep</span><span class="font-cg strong">2</span></div>
+            <span class="step_inner__midashi font-cg font-b">サイト上で物件が公開</span>
+            <figure><%= image_tag('top/lend_step2.png', :alt => "サイト上で物件が公開イメージ") %></figure>
+            <span class="step_inner__description">送信していただいた情報を確認後、<br class="spn">サイト上に物件情報を掲載します。</span>
+         </div>
+         
+         <div class="step_inner__contents">
+            <div class="step_inner__num"><span class="line_g font-cg"><span class="">S</span>tep</span><span class="font-cg strong">3</span></div>
+            <span class="step_inner__midashi font-cg font-b">借り手様と直接交渉</span>
+            <figure><%= image_tag('top/borrow_step3.png', :alt => "借り手様と直接交渉イメージ") %></figure>
+            <span class="step_inner__description">メッセージボード上にて<br class="spn">物件を借りたい借り手様と直接交渉する。</span>
+         </div>
+      </div>
+   </section>
+
+   <div class="flowimage"><%= image_tag('top/flowimage.png', :alt => "全体の流れイメージ") %></div>
+   <div class="illust_image"></div>
+
+   <footer>
+      <div class="footer_inner">
+         <div class="footer_logo"><span class="font-cw">とかいなか×別荘シェアリングサービス</span><br><%= image_tag('common/footer_logo.jpg', :alt => "とかいなかのShavilla") %></div>
+         <ul class="footer_nav">
+            <li><a href="#">検索</a></li>
+            <li><a href="#">借りたい</a></li>
+            <li><a href="#">貸したい</a></li>
+            <li><a href="#">運営</a></li>
+            <li><a href="#">利用規約</a></li>
+            <li><a href="#">お問い合わせ</a></li>
+         </ul>
+         <ul class="footer__sns">
+            <li><a href="#" class="sns_twitter">twitter</a></li>
+            <li><a href="#" class="sns_facebook">facebook</a></li>
+         </ul>
+<a href="#" id="pageTop">トップへ戻る</a>
+      </div>
+      <small class="copyright">Copyright (C) marutto-web-studio. All rights reserved.</small>
+   </footer>
+</div>
+
+
+<script src="js/delighters.js" type="text/javascript"></script>
+<script type="text/javascript">
+/*-------------globalmenu-----------*/
+$(function(){
+			$('#nav_toggle').click(function(){
+						$("header").toggleClass('open');
+				$("nav").fadeToggle(500);
+			});
+});
+/*-------------pagetop-----------*/
+$(function(){
+  var pageTop = $("#pageTop");
+  pageTop.click(function () {
+    $('body, html').animate({ scrollTop: 0 }, 300);
+    return false;
+  });
+  $(window).scroll(function () {
+    if($(this).scrollTop() >= 200) {
+      pageTop.fadeIn();
+    } else {
+      pageTop.fadeOut();
+    }
+  });
+  
+/*-------------underline-----------*/
+$(window).scroll(function(){
+  var windowHeight =$(window).height();
+  var windowTop =$(window).scrollTop();
+  $(".line_yb, .line_g").each(function(){
+    var objectImage =$(this).offset().top;
+    if(windowTop > objectImage - windowHeight*3/4){$(this).css("background-size","100% 100%")};
+  });
+});
+
+});
+</script>
