@@ -47,5 +47,9 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
-production: <%= ENV['CLEARDB_DATABASE_URL'] %>
-
+#production: <%= ENV['CLEARDB_DATABASE_URL'] %>
+production:
+  <<: *default
+  database: tokainaka_v1_production
+  username: tokainaka_v1
+  password: <%= ENV['TOKAINAKA_V1_DATABASE_PASSWORD'] %>
