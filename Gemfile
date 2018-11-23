@@ -62,7 +62,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'ransack'
-gem 'mailboxer'
+#gem 'mailboxer'
 #gem 'acts-as-taggable-on'
 gem 'devise'
 gem 'jquery-rails'
