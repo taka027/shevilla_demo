@@ -70,4 +70,4 @@ gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'kaminari'
 gem 'carrierwave'
-gem "font-awesome-rails"
+#gem "font-awesome-rails"
