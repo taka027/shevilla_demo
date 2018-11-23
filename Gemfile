@@ -71,4 +71,4 @@ gem 'ransack'
 #gem 'carrierwave'
 #gem 'rmagick'
 gem "font-awesome-rails"
-gem 'devise'
+gem 'devise','4.4.3'
