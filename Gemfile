@@ -70,5 +70,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 #gem 'kaminari'
 #gem 'carrierwave'
 #gem 'rmagick'
-gem "font-awesome-rails"
-gem 'devise','~> 4.4.0'
+#gem "font-awesome-rails"
+#gem 'devise','~> 4.4.0'
