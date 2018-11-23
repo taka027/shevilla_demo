@@ -71,5 +71,5 @@ gem 'jquery-ui-rails'
 #gem 'kaminari'
 #gem 'carrierwave'
 #gem 'rmagick'
-#gem "font-awesome-rails"
+gem "font-awesome-rails"
 gem 'devise' #,'~> 4.4.0'
