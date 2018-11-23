@@ -66,9 +66,9 @@ gem 'ransack'
 #gem 'acts-as-taggable-on'
 #gem 'jquery-rails'
 #gem 'jquery-ui-rails'
-gem 'bootstrap-sass'
+#gem 'bootstrap-sass'
 #gem 'kaminari'
 #gem 'carrierwave'
 #gem 'rmagick'
-#gem "font-awesome-rails"
+gem "font-awesome-rails"
 gem 'devise'
