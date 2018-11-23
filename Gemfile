@@ -64,7 +64,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'ransack'
 #gem 'mailboxer'
 #gem 'acts-as-taggable-on'
-gem 'devise'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'bootstrap-sass'
@@ -72,3 +71,4 @@ gem 'bootstrap-sass'
 #gem 'carrierwave'
 #gem 'rmagick'
 #gem "font-awesome-rails"
+gem 'devise'
